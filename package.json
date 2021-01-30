@@ -1,0 +1,31 @@
+{
+  "name": "anydoor",
+  "version": "0.1.0",
+  "description": "Tiny NodeJS Static Web Server",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "bin/anydoor"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "handlebars": "^4.7.6",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/circle-hotaru/anydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/circle-hotaru/anydoor/issues"
+  },
+  "homepage": "https://github.com/circle-hotaru/anydoor#readme"
+}
